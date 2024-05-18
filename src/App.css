@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.gridContainer {
+  display: grid;
+  grid-template-rows: 5rem 5rem 5rem;
+  grid-template-columns: 5rem 5rem 5rem;
+}
+
+.gridItem {
+  border: 1px solid red;
+  cursor: pointer;
+}
